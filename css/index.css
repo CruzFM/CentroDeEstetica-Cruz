@@ -310,11 +310,18 @@ footer {
 
 .gridTratamientos {
   display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 33,3% 33,3% 33,3%;
-  row-gap: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 90%;
+  margin: 0 auto; }
+  .gridTratamientos .tratamientoUno {
+    grid-column: span 2 / 4; }
+    .gridTratamientos .tratamientoUno .tratamientoUno--info {
+      font-size: medium; }
+  .gridTratamientos .tratamientoDos {
+    grid-column: span 2 / 4; }
+  .gridTratamientos .tratamientoTres {
+    grid-column: span 2 / 4; }
 
 .fotosTratamientos {
   width: 3;
