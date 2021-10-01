@@ -1,0 +1,57 @@
+// NORMALIZADOR
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans Condensed';
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+/* Cambiar el color y tamaño a los subtítulos */
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+/* Modifica los links de la página*/
+
+/*  Elimina formato de las listas del nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover{
+    background-color: rgb(255, 0, 0);
+}

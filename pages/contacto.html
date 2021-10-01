@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <!-- Inicio del header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="../index.html">
+                    <img src="../images/Logo Bella Beauty Center.png" alt="Logo Bella Beauty Center" class="navLogo a">
+                </a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item listasNav">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item listasNav">
+                            <a class="nav-link" href="./tratamientos.html">Tratamientos</a>
+                        </li>
+                        <li class="nav-item listasNav">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                        <li class="nav-item listasNav">
+                            <a class="nav-link" href="./testimonios.html">Testimonios</a>
+                        </li>
+                        <li class="nav-item listasNav">
+                            <a class="nav-link active" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- Fin del header -->
+    </header>
+
+    <!-- Inicio del main -->
+    <main class="mainBackground">
+        <h1>¡Contactanos!</h1>
+        <!--inicio formulario-->
+        <form action="">
+
+            <!--Nombre-->
+            <label for="nombre-cliente">Nombre completo:</label>
+            <br>
+            <input type="text" name="nombre-cliente"  id="nombre-cliente">
+            <br><br>
+
+            <!--Edad-->
+            <label for="edad">Indique su edad:</label>
+            <br>
+            <input type="text" name="edad" id="edad">
+            <br><br>
+
+            <!--Correo Electrónico-->
+            <label for="direccion-correo">Inserte su correo electrónico:</label>
+            <br>
+            <input type="email" name="direccion-correo" id="direccion-correo">
+            <br><br>
+            
+            <!--Tratamiento de consulta-->
+            <Label for="seleccione-tratamiento">Seleccione su tratamiento:</Label>
+            <br>
+            <select name="seleccione-tratamiento" id="seleccione-tratamiento">
+                <option value="t1">tratamiento 1</option>
+                <option value="t2">tratamiento 2</option>
+                <option value="t3">tratamiento 3</option>
+            </select>
+            <br><br>
+
+            <!--Teléfono-->
+            <label for="telefono">Indique su número de teléfono:</label>
+            <br>
+            <input type="text" name="telefono" id="telefono">
+            <br><br>
+
+            <!--Consulta-->
+            <label for="caja-de-consulta">Indique su consulta</label>
+            <br>
+            <textarea name="" id="" cols="30" rows="10">Aquí su consulta:</textarea>
+            <br> <br>
+
+            <!--Checkbox-->
+            <label for="newsletter">Deseas suscribirte al Newsletter:</label>
+            <input type="checkbox" name="newsletter" id="newsletter">
+            <br><br>
+
+            <!--Botones-->
+            <input type="submit" name="Enviar">
+            <input type="reset" name="Limpiar">
+            <br><br>
+        </form>
+
+    <!-- Fin del main -->
+    </main>
+
+    <!-- Inicio del footer -->
+    <footer class="gridFooter">
+        <div class="datosEmpresa">
+                <h2>¡Contactanos!</h2>
+        </div>
+        <div class="datosEmpresa__Uno">
+                    <h3>Tel: 4562-5468</h3>
+        </div>
+        <div class="datosEmpresa__Dos">
+                    <h3>Dirección: Av. Cabildo 1234</h3>
+        </div>
+        <div class="datosEmpresa__Tres">
+                    <h3>Email: Bellabeautycenter@gmail.com</h3>
+        </div>
+        <div class="logoFb">
+            <a href="">
+                <img src="../images/facebook.png" alt="">
+            </a>
+        </div>
+        <div class="logoInsta">
+            <a href="">
+                <img src="../images/instagram.png" alt="">
+            </a>
+        </div>
+        <div class="logoWp">
+            <a href="">
+                <img src="../images/whatsapp.png" alt="">
+            </a>
+        </div>
+    </footer>
+    <!-- Fin del footer -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

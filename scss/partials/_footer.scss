@@ -1,0 +1,71 @@
+/* Gradiente Footer */
+footer {
+    background: linear-gradient(360deg, #FDD0E5 9.43%, rgba(245, 240, 240, 0.993) 118.97%);
+    mix-blend-mode: normal;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 20px;
+}
+
+/* Grid Footer*/
+.gridFooter {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+
+    .datosEmpresa {
+        /* border: solid black 1px; */
+        grid-row: 1 / 4;
+    }
+    .datosEmpresa__Uno {
+        /* border: solid black 1px; */
+        grid-column: 2 / 4;
+    }
+    .datosEmpresa__Dos {
+        /* border: solid black 1px; */
+        grid-column: 2 / 4;
+    }
+
+    .datosEmpresa__Tres {
+        /* border: solid black 1px; */
+        grid-column: 2 / 4;
+    }
+
+    .logoFb {
+        // border: solid black 1px;
+        display: flex;
+        justify-content: center;
+        a{
+            img {
+            width: 30px;
+            height: 30px;
+        
+            }
+        }
+    }
+    .logoWp{
+        // border: solid black 1px;
+        display: flex;
+        justify-content: center;
+        a{
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    .logoInsta {
+        // border: solid black 1px;
+        display: flex;
+        justify-content: center;
+        a{
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}

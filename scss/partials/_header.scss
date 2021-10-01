@@ -1,0 +1,56 @@
+/* Color con Gradiente HEADER*/
+
+
+header {
+    // background: linear-gradient(180deg, #FDD0E5 60.64%, rgba(255, 255, 255, 0.938) 100%);
+    background-image: url(../images/backImage-4.jpg);
+    // mix-blend-mode: normal;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    a {
+        font-size: 1.5em;
+    }
+}
+
+.navLogo {
+    background-size: 150px 137px;
+    width: 150px;
+    height: 137px;
+    top: 5px;
+    left: 7px;
+}
+
+/* Modificación a las listas con links */  
+.listasNav {
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.gridNav {
+    display: grid;
+    grid-template-areas: "logo index tratamientos nosotros testimonios contacto";
+
+
+    .a {grid-area: logo;}
+    .b {grid-area: index;}
+    .c {grid-area: tratamientos;}
+    .d {grid-area: nosotros;}
+    .e {grid-area: testimonios;}
+    .f {grid-area: contacto;}
+}
+
+/* Submenú */
+/* ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li{
+    display: block;
+}
+
+ul li:hover ul {
+    display: block;
+} */

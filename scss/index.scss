@@ -1,0 +1,17 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+/* GLOBALS */
+
+@import "./globals";
+
+/* PARTIALS */
+@import "./partials/header";
+@import "./partials/footer";
+
+/* PAGES */
+@import "./pages/home";
+@import "./pages/contacto";
+@import "./pages/nosotros";
+@import "./pages/testimonios";
+@import "./pages/tratamientos";

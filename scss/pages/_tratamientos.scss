@@ -1,0 +1,13 @@
+.gridTratamientos {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 33,3% 33,3% 33,3%;
+    row-gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fotosTratamientos {
+    width: 3;
+    height: 200px;
+}

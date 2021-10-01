@@ -1,0 +1,232 @@
+/* Inicio secciones del Main */
+
+/* Seccion Uno */
+
+.seccionUno {
+    margin-top: 20px;
+    /* margin-bottom: 25px; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+
+        .seccionUno__title {
+            margin-bottom: 20px;
+        }
+
+        .seccionUno__servicios {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+        }
+
+        .seccionUno__tFaciales {
+            background-color:#FDD0E5;
+            width: 30%;
+            font-size: medium;
+            h5 {
+                font-size: 1.3em;
+            }
+        }
+
+        .seccionUno__tCorporales {
+            background-color: #FDD0E5;
+            width: 30%;
+            font-size: medium;
+            h5 {
+                font-size: 1.3em;
+            }
+        }
+}
+
+.linkTratamientos {
+    grid-column: 1 / span 2;
+    font-size: 0.5em;
+
+    .animacion {
+        transition: 0.5s;
+    }
+
+    .animacion:hover {
+        transform: scale(2,2);
+    }
+    
+
+    
+} 
+/* Seccion Dos (main)*/
+.seccionDos {
+    margin-bottom: 50px;
+    background-color: #FDD0E5;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 90%;
+    margin:0 auto;
+
+
+    .seccionDos__Title {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    /* .seccionDosFotoUno {
+        width: 300px;
+        height: auto;
+
+    }
+    .seccionDosFotoDos {
+        width: 300px;
+        height: auto;
+    } */
+
+    .seccionDos__Carousel {
+
+        width: 70%;
+        height: 50%;
+        display: flex;
+        align-self: center;
+    }
+
+    // @mixin fotosIndex {
+    //     height: 900px;
+    //     width: 100%;
+    // }
+    // @mixin alignContent {
+    //     align-content: center
+    // }
+    // .seccionDos__Carousel--fotos {
+    //     @include fotosIndex;
+    //     @include alignContent;
+    // }
+
+    // .seccionDos__Link {
+    //     grid-column: 1 / span 2;
+    // }
+
+}
+
+/* Seccion Tres (main) - usa GRID*/
+.seccionTres {
+    display: grid;
+    margin-bottom: 50px;
+    row-gap: 20px;
+    // column-gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    width: 90%;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    .seccionTres__Title {
+        // border: solid black 1px;
+        grid-column: 1 / 3;
+    }
+    // .seccionTres__profesionales {
+    //     border: solid black 1px;
+    // }
+    // .seccionTres__Profesionales--datos {
+    //     border: solid black 1px;
+    // }
+    // .seccionTres__Testimonios {
+    //     border: solid black 1px;
+    // }
+
+    // .seccionTres__Testimonios--datos {
+    //     border: solid black 1px;
+    // }
+
+}
+
+/* Sección Cuatro (Main) - Preguntas Frecuentes */
+.seccionCuatro {
+    margin-bottom: 50px;
+    background-color: #FDD0E5;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin:0 auto;
+    margin-bottom: 20px;
+
+    h2{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .seccionCuatro__respuestas {
+        text-align: center;
+    }
+    p {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 768px) {
+    .seccionUno {
+
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 90%;
+        margin:0 auto;
+        .seccionUno__tFaciales{
+            p {
+                font-size: small
+            }
+        }
+
+        .seccionUno__tCorporales {
+            p {
+                font-size: small
+            }
+        }
+    }
+    .seccionDos {
+        width: 90%;
+        margin:0 auto;
+    }
+    .seccionTres {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 90%;
+        margin:0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        // .seccionTres__Title {
+        //    border: solid black 1px;
+
+        // }
+
+        // .seccionTres__profesionales {
+        //     border: solid black 1px;
+        // }
+
+        // .seccionTres__Profesionales--datos {
+        //     border: solid black 1px;
+        // }
+        // .seccionTres__Testimonios {
+        //     border: solid black 1px;
+        // }
+        
+        // .seccionTres__Testimonios--datos {
+        //     border: solid black 1px;
+        // }
+    }
+
+    footer {
+        font-size: smaller;
+    }
+}
+
+/* Alinea centralmente al link de tratamientos */
+.botonTratamientos {
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

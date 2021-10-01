@@ -1,0 +1,35 @@
+.nosotros {
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin-bottom: 50px;
+}
+
+.nosotros__title {
+    // border: solid black 1px;
+    grid-column: 1 / 4;
+}
+.nosotros__historia {
+    // border: solid black 1px;
+    grid-row: 2 / 4;
+}
+.nosotros__historia--contenidoHistoria {
+    // border: solid black 1px;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;   
+}
+
+.nosotros__prof {
+    // border: solid black 1px;
+    grid-row: 4 / 6;
+}
+.nosotros__prof--Uno {
+    // border: solid black 1px;
+    grid-column: 2 / 4;  
+}
+.nosotros___prof--dos {
+    // border: solid black 1px;
+    grid-column: 2 / 4;
+}
