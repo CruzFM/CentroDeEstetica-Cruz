@@ -13,6 +13,21 @@ header {
     a {
         font-size: 1.5em;
     }
+
+    .navCorporales {
+        background-image: url(../images/backImage-6.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .navFaciales{
+        background-image: url(/images/backImage-7.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 .navLogo {
@@ -29,28 +44,13 @@ header {
     font-size: 1.5em;
 }
 
-.gridNav {
-    display: grid;
-    grid-template-areas: "logo index tratamientos nosotros testimonios contacto";
-
-
-    .a {grid-area: logo;}
-    .b {grid-area: index;}
-    .c {grid-area: tratamientos;}
-    .d {grid-area: nosotros;}
-    .e {grid-area: testimonios;}
-    .f {grid-area: contacto;}
+/* Background transparente navbar*/
+.dropdownBack {
+    background-color: transparent;
+    border: transparent;
+    padding-left: 2px;
+    
+    a:hover {
+        background-color: rgb(250, 207, 241);
+    }
 }
-
-/* Submenú */
-/* ul ul{
-    position: absolute;
-    display: none;
-}
-ul ul li{
-    display: block;
-}
-
-ul li:hover ul {
-    display: block;
-} */
