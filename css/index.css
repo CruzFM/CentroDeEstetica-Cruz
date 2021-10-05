@@ -262,6 +262,14 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+.contacto {
+  width: 90%;
+  margin: 0 auto;
+  font-size: medium; }
+  .contacto .contacto__botones {
+    margin-top: 10px;
+    margin-bottom: 20px; }
+
 .nosotros {
   display: grid;
   row-gap: 20px;
@@ -300,32 +308,14 @@ footer {
   width: auto;
   height: auto; }
 
-.gridTratamientos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  width: 90%;
-  margin: 0 auto; }
-  .gridTratamientos .tratamientoUno {
-    grid-column: span 2 / 4; }
-    .gridTratamientos .tratamientoUno .tratamientoUno--info {
-      font-size: medium; }
-  .gridTratamientos .tratamientoDos {
-    grid-column: span 2 / 4; }
-  .gridTratamientos .tratamientoTres {
-    grid-column: span 2 / 4; }
-
-.fotosTratamientos {
-  width: 3;
-  height: 200px; }
-
 .corporales__Uno {
   display: flex;
   flex-direction: row;
   width: 90%;
   margin: 0 auto;
   justify-content: center;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-top: 20px; }
   .corporales__Uno .corporales__Uno--imagen {
     display: flex;
     justify-self: center;
@@ -347,7 +337,8 @@ footer {
   margin: 0 auto;
   justify-content: center;
   background-color: #FDD0E5;
-  align-content: center; }
+  align-content: center;
+  margin-bottom: 20px; }
   .corporales__Dos .corporales__Dos--imagen {
     display: flex;
     justify-self: flex-end;
@@ -361,4 +352,24 @@ footer {
   .corporales__Dos .corporales__Dos--descripcion {
     align-self: center;
     justify-self: center;
+    width: 40%; }
+
+.corporales__tres {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 30px; }
+  .corporales__tres .corporales__tres--imagen {
+    justify-self: flex-start;
+    align-self: center;
+    width: 40%; }
+    .corporales__tres .corporales__tres--imagen img {
+      width: 80%;
+      height: 80%; }
+  .corporales__tres .corporales__tres--descripcion {
+    justify-self: center;
+    align-self: center;
+    margin-left: 5%;
     width: 40%; }
