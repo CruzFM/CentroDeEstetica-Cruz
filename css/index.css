@@ -75,7 +75,8 @@ header {
   width: 150px;
   height: 137px;
   top: 5px;
-  left: 7px; }
+  left: 7px;
+  background-color: transparent; }
 
 /* Modificación a las listas con links */
 .listasNav {
@@ -315,7 +316,8 @@ footer {
   margin: 0 auto;
   justify-content: center;
   margin-bottom: 20px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-size: 1.3em; }
   .corporales__Uno .corporales__Uno--imagen {
     display: flex;
     justify-self: center;
@@ -338,7 +340,8 @@ footer {
   justify-content: center;
   background-color: #FDD0E5;
   align-content: center;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-size: 1.3em; }
   .corporales__Dos .corporales__Dos--imagen {
     display: flex;
     justify-self: flex-end;
@@ -360,7 +363,8 @@ footer {
   width: 90%;
   margin: 0 auto;
   justify-content: center;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-size: 1.3em; }
   .corporales__tres .corporales__tres--imagen {
     justify-self: flex-start;
     align-self: center;
@@ -372,4 +376,71 @@ footer {
     justify-self: center;
     align-self: center;
     margin-left: 5%;
+    width: 40%; }
+
+.faciales__Uno {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 1.3em; }
+  .faciales__Uno .faciales__Uno--imagen {
+    display: flex;
+    justify-self: center;
+    width: 40%;
+    background-color: none;
+    margin-right: 5%; }
+    .faciales__Uno .faciales__Uno--imagen img {
+      width: 100%;
+      height: 100%; }
+  .faciales__Uno .faciales__Uno--descripcion {
+    align-self: center;
+    justify-self: center;
+    width: 40%; }
+
+.faciales__Dos {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #FDD0E5;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 1.3em; }
+  .faciales__Dos .faciales__Dos--imagen {
+    display: flex;
+    justify-self: center;
+    width: 40%;
+    background-color: none;
+    margin-right: 5%; }
+    .faciales__Dos .faciales__Dos--imagen img {
+      width: 100%;
+      height: 100%; }
+  .faciales__Dos .faciales__Dos--descripcion {
+    align-self: center;
+    justify-self: center;
+    width: 40%; }
+
+.faciales__Tres {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 1.3em; }
+  .faciales__Tres .faciales__Tres--imagen {
+    display: flex;
+    justify-self: center;
+    width: 40%;
+    background-color: none;
+    margin-right: 5%; }
+    .faciales__Tres .faciales__Tres--imagen img {
+      width: 100%;
+      height: 100%; }
+  .faciales__Tres .faciales__Tres--descripcion {
+    align-self: center;
+    justify-self: center;
     width: 40%; }

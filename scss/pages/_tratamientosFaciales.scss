@@ -1,0 +1,85 @@
+.faciales__Uno {
+    display: flex;
+    width: 90%;
+    margin:0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.3em;
+
+    .faciales__Uno--imagen{
+        display: flex;
+        justify-self: center;
+        width: 40%;
+        background-color: none;
+        margin-right: 5%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .faciales__Uno--descripcion {
+        align-self: center;
+        justify-self: center;
+        width: 40%;
+        // h2 {
+        //     display: flex;
+        //     align-self: flex-start;
+        // }
+    }
+}
+
+.faciales__Dos {
+    display: flex;
+    width: 90%;
+    margin:0 auto;
+    justify-content: center;
+    background-color: #FDD0E5;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.3em;
+
+    .faciales__Dos--imagen{
+        display: flex;
+        justify-self: center;
+        width: 40%;
+        background-color: none;
+        margin-right: 5%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .faciales__Dos--descripcion {
+        align-self: center;
+        justify-self: center;
+        width: 40%;
+    }
+}
+
+.faciales__Tres {
+    display: flex;
+    width: 90%;
+    margin:0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.3em;
+    .faciales__Tres--imagen {
+        display: flex;
+        justify-self: center;
+        width: 40%;
+        background-color: none;
+        margin-right: 5%;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .faciales__Tres--descripcion {
+        align-self: center;
+        justify-self: center;
+        width: 40%;
+    }
+}
