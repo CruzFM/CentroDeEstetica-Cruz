@@ -8,6 +8,11 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    background-color: #FFEED9;
+    width: 90%;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
 
         .seccionUno__title {
@@ -16,15 +21,16 @@
 
         .seccionUno__servicios {
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            flex-direction: column;
+            // justify-content: space-around;
             
         }
 
         .seccionUno__tFaciales {
             background-color:#FDD0E5;
-            width: 30%;
+            width: 80%;
             font-size: medium;
+            align-self: center;
             h5 {
                 font-size: 1.3em;
             }
@@ -32,11 +38,17 @@
 
         .seccionUno__tCorporales {
             background-color: #FDD0E5;
-            width: 30%;
+            // height: 30rem;
+            width: 80%;
             font-size: medium;
+            align-self: center;
+            
             h5 {
                 font-size: 1.3em;
             }
+            // img {
+            //     height: 40%;
+            // }
         }
 }
 
@@ -86,6 +98,7 @@
         height: 50%;
         display: flex;
         align-self: center;
+        justify-self: center;
     }
 
     // @mixin fotosIndex {
@@ -118,6 +131,7 @@
     margin:0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #FFEED9;
 
 
     .seccionTres__Title {
@@ -144,25 +158,28 @@
 .seccionCuatro {
     margin-bottom: 50px;
     background-color: #FDD0E5;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
     width: 90%;
     margin:0 auto;
     margin-bottom: 20px;
 
-    h2{
-        padding-top: 20px;
-        padding-bottom: 10px;
+    div {
+        background-color: #FDD0E5;
     }
 
-    .seccionCuatro__respuestas {
-        text-align: center;
+    button {
+        font-size: 0.8em;
     }
-    p {
-        font-size: medium;
-    }
+    // h2{
+    //     padding-top: 20px;
+    //     padding-bottom: 10px;
+    // }
+
+    // .seccionCuatro__respuestas {
+    //     text-align: center;
+    // }
+    // p {
+    //     font-size: medium;
+    // }
 }
 
 @media (max-width: 768px) {

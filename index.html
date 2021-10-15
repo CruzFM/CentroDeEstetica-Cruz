@@ -51,36 +51,48 @@
     <main>
 
         <!--Seccion Uno - Servicios-->
+
         <section class="seccionUno">
             <div class="seccionUno__title">
                 <h2 class="titlesIndex">Servicios</h2>
             </div>
             <div class="seccionUno__servicios">
-                <div class="card seccionUno__tCorporales">
-                    <div class="seccionUno__tCorporales--flex">           
-                        <img src="./images/cuerpo-mujer.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Tratamientos Corporales</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae id temporibus sequi dolorem quam doloremque nulla veritatis, aut consequuntur earum asperiores deserunt tempora commodi dicta repellat nesciunt consectetur ducimus ratione.</p>
-                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <div class="card mb-3 seccionUno__tCorporales">
+                    <div class="row g-0 seccionUno__tCorporales--flex">
+                        <div class="col-md-4">
+                            <img src="./images/backImage-6.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Tratamientos Corporales</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in eius magnam maxime nam id, culpa recusandae, odit earum, expedita consequuntur adipisci obcaecati itaque et molestias exercitationem voluptas dolore optio?</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a href="./pages/tratamientos-corporales.html" class="btn btn-primary">Ir a Tratamientos Corporales</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card seccionUno__tFaciales">
-                    <img src="./images/rostro-mujer.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Tratamientos Faciales</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eligendi molestias veniam aliquid voluptate praesentium, perspiciatis facilis quasi hic illum quisquam nam, odio cumque ad expedita? Voluptatibus hic possimus voluptas!</p>
-                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <div class="card mb-3 seccionUno__tFaciales">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./images/rostro-mujer.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Tratamientos Faciales</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in eius magnam maxime nam id, culpa recusandae, odit earum, expedita consequuntur adipisci obcaecati itaque et molestias exercitationem voluptas dolore optio?</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a href="./pages/tratamientos-faciales.html" class="btn btn-primary">Ir a Tratamientos Faciales</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="linkTratamientos">
+            <!-- <div class="linkTratamientos">
                 <h2 class="botonTratamientos animacion">
                     <a href="./pages/tratamientos-corporales.html" class="listasNav">Tratamientos Corporales</a>
                 </h2>
-            </div>
+            </div> -->
         </section>
 
          <!--Sección Dos - Fotos-->
@@ -114,11 +126,11 @@
                   <span class="visually-hidden">Next</span>
                 </button>
             </div>
-            <div class="linkTratamientos">
+            <!-- <div class="linkTratamientos">
                 <h2 class="botonTratamientos animacion">
                     <a href="./pages/tratamientos-faciales.html" class="listasNav seccionDos__Link">Tratamientos Faciales</a>
                 </h2>
-            </div>
+            </div> -->
         </section>
 
          <!--Sección Tres - ¿Por qué nosotros?-->
@@ -143,15 +155,45 @@
             
         </section>
         <!-- Preguntas Frecuentes-->
-        <section>
-            <div class="seccionCuatro">
-                <h2 class="titlesIndex">Preguntas Frecuentes</h2>
-                    <h3>¿Son Tratamientos Invasivos?</h3>
-                        <p class="seccionCuatro__respuestas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolore nostrum nulla quisquam aut laborum molestias delectus. Perferendis optio animi fugiat dicta recusandae, consequuntur, nostrum, dignissimos autem voluptate inventore nobis!</p>
-                    <h3>¿Cuándo empiezo a ver resultados?</h3>
-                        <p class="seccionCuatro__respuestas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quae ullam sed quaerat accusantium inventore officia commodi eius, enim magnam delectus aspernatur vitae, maiores omnis aut rem eaque exercitationem a.</p>
-                    <h3>¿Cada cuánto tiempo tengo que realizarme la Criolipólisis?</h3>
-                        <p class="seccionCuatro__respuestas">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quidem ea, quia explicabo adipisci provident, debitis iure cumque iste modi, eius perspiciatis facilis culpa. Quae vero illo numquam expedita laudantium?</p>
+        <section class="seccionCuatro">
+            <h2 class="titlesIndex">Preguntas Frecuentes</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Son Tratamientos Invasivos?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Cuándo empiezo a ver resultados?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Cada cuánto tiempo tengo que realizarme la Criolipólisis?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     <!--Fin del main-->
