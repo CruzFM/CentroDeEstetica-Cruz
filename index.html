@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <header>
+    <header class="header__index">
         <!-- inicio del header -->
-        <nav class="navbar navbar-expand-lg navbar-light backgroundNavHome">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="./images/Logo Bella Beauty Center.png" alt="Logo Bella Beauty Center" class="navLogo a">
+                    <img src="./images/Nav_BellaBeautyCenter.png" alt="Logo Bella Beauty Center" class="navLogo a">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,6 +45,24 @@
                 </div>
             </div>
         </nav>
+        <section>
+            <div class="header__index--intro">
+                <div class="header__index--intro-slogan">
+                    <h1>
+                        Empezá la transformación
+                        <br>
+                        que te hará sentir plena
+                    </h1>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>Conocé nuestros tratamientos y transformá tu imagen para siempre.</p>
+                </div>
+                <div class="header__index--intro-imagen">
+                    <img src="./images/Index/Seccion1_Nav-1.jpg" alt="" >
+                </div>
+            </div>
+        </section>
     </header>
 
     <!-- Inicio del Main -->
@@ -53,7 +71,7 @@
         <!--Seccion Uno - Servicios-->
 
         <section class="seccionUno">
-            <div class="seccionUno__title">
+            <!-- <div class="seccionUno__title">
                 <h2 class="titlesIndex">Servicios</h2>
             </div>
             <div class="seccionUno__servicios">
@@ -87,17 +105,43 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <div class="linkTratamientos">
                 <h2 class="botonTratamientos animacion">
                     <a href="./pages/tratamientos-corporales.html" class="listasNav">Tratamientos Corporales</a>
                 </h2>
             </div> -->
+                <div class="seccionUno__imagen">
+                    <img src="./images/Index/Seccion2_corporales-2.jpg" alt="">
+                </div>
+                <div class="seccionUno__descrip">
+                    <h2>
+                        Reducí, modelá, tonificá y relajá tu cuerpo con nuestros <a href="./pages/tratamientos-corporales.html">tratamientos corporales</a>
+                    </h2>
+                    <br>
+                    <hr>
+                    <br>
+                    <p>Tenemos una amplia variedad de tratamientos para tu figura.</p>
+                </div>
         </section>
 
-         <!--Sección Dos - Fotos-->
         <section class="seccionDos">
-            <div class="seccionDos__Title">
+            <div class="seccionDos__descrip">
+                <h2>
+                    Cuidá tu belleza facial con nuestros <a href="./pages/tratamientos-faciales.html">tratamientos faciales</a>
+                </h2>
+                <br>
+                <hr>
+                <br>
+                <p>Contamos con los mejores especialistas en el cuidado, mantenimiento y mejora de la piel.</p>
+            </div>
+            <div class="seccionDos__imagen">
+                <img src="./images/Index/Seccion3-Faciales.jpg" alt="">
+            </div>
+        </section>
+         <!--Sección Dos - Fotos-->
+        <section class="seccionTres">
+            <div class="seccionTres__Title">
                 <h2 class="titlesIndex">Nuestro Consultorio</h2>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide seccionDos__Carousel" data-bs-ride="carousel">

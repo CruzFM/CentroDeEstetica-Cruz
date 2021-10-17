@@ -18,20 +18,23 @@ body {
   height: 100%; }
 
 h1 {
-  font-size: 3.5em; }
+  font-size: 44px; }
 
-/* Cambiar el color y tamaño a los subtítulos */
+/* Cambiar el tamaño a los subtítulos */
 h2 {
-  font-size: 3em;
-  text-align: center; }
+  font-size: 30px; }
 
 h3 {
-  text-align: center;
-  font-size: 2em; }
+  font-size: 22px; }
 
 h4 {
-  text-align: center;
-  font-size: 1.8em; }
+  font-size: 18px; }
+
+h5 {
+  font-size: 16px; }
+
+p {
+  font-size: 20px; }
 
 /* Modifica los links de la página*/
 /*  Elimina formato de las listas del nav */
@@ -50,25 +53,38 @@ a:hover {
 /* PARTIALS */
 /* Color con Gradiente HEADER*/
 header {
-  background-image: url(../images/backImage-4.jpg);
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  header a {
-    font-size: 1.5em; }
-  header .navCorporales {
-    background-image: url(../images/backImage-6.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%; }
-  header .navFaciales {
-    background-image: url(/images/backImage-7.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
+  background-color: #FFF5E1; }
+
+.header__index a {
+  font-size: 16px; }
+
+.header__index .header__index--intro {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  align-content: flex-end; }
+  .header__index .header__index--intro .header__index--intro-slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    .header__index .header__index--intro .header__index--intro-slogan h1 {
+      font-size: 44px;
+      font-weight: 700; }
+    .header__index .header__index--intro .header__index--intro-slogan p {
+      font-size: 20px; }
+  .header__index .header__index--intro .header__index--intro-imagen {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    width: 50%; }
+    .header__index .header__index--intro .header__index--intro-imagen img {
+      width: 90%;
+      height: 50%; }
 
 .navLogo {
   background-size: 150px 137px;
@@ -143,63 +159,60 @@ footer {
   margin-top: 20px;
   /* margin-bottom: 25px; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
-  background-color: #FFEED9;
+  height: 500px;
   width: 90%;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px; }
-  .seccionUno .seccionUno__title {
-    margin-bottom: 20px; }
-  .seccionUno .seccionUno__servicios {
+  margin: 0 auto; }
+  .seccionUno .seccionUno__imagen {
     display: flex;
-    flex-direction: column; }
-  .seccionUno .seccionUno__tFaciales {
-    background-color: #FDD0E5;
-    width: 80%;
-    font-size: medium;
-    align-self: center; }
-    .seccionUno .seccionUno__tFaciales h5 {
-      font-size: 1.3em; }
-  .seccionUno .seccionUno__tCorporales {
-    background-color: #FDD0E5;
-    width: 80%;
-    font-size: medium;
-    align-self: center; }
-    .seccionUno .seccionUno__tCorporales h5 {
-      font-size: 1.3em; }
+    flex-direction: row;
+    width: 60%; }
+    .seccionUno .seccionUno__imagen img {
+      width: 80%;
+      height: 80%;
+      align-self: center; }
+  .seccionUno .seccionUno__descrip {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 30%; }
 
-.linkTratamientos {
-  grid-column: 1 / span 2;
-  font-size: 0.5em; }
-  .linkTratamientos .animacion {
-    transition: 0.5s; }
-  .linkTratamientos .animacion:hover {
-    transform: scale(2, 2); }
+.seccionDos {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  height: 500px;
+  width: 90%;
+  margin: 0 auto; }
+  .seccionDos .seccionDos__descrip {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 40%; }
+  .seccionDos .seccionDos__imagen {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: flex-end; }
+    .seccionDos .seccionDos__imagen img {
+      width: 80%;
+      height: 90%;
+      align-self: flex-start;
+      justify-self: center; }
 
 /* Seccion Dos (main)*/
-.seccionDos {
+.seccionTres {
   margin-bottom: 50px;
   background-color: #FDD0E5;
   display: flex;
   flex-direction: column;
   align-content: center;
   width: 90%;
-  margin: 0 auto;
-  /* .seccionDosFotoUno {
-        width: 300px;
-        height: auto;
-
-    }
-    .seccionDosFotoDos {
-        width: 300px;
-        height: auto;
-    } */ }
-  .seccionDos .seccionDos__Title {
-    padding-top: 20px;
-    padding-bottom: 15px; }
-  .seccionDos .seccionDos__Carousel {
+  margin: 0 auto; }
+  .seccionTres .seccionTres__Carousel {
     width: 70%;
     height: 50%;
     display: flex;
@@ -207,7 +220,7 @@ footer {
     justify-self: center; }
 
 /* Seccion Tres (main) - usa GRID*/
-.seccionTres {
+.seccionCuatro {
   display: grid;
   margin-bottom: 50px;
   row-gap: 20px;
@@ -218,19 +231,19 @@ footer {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #FFEED9; }
-  .seccionTres .seccionTres__Title {
+  .seccionCuatro .seccionTres__Title {
     grid-column: 1 / 3; }
 
 /* Sección Cuatro (Main) - Preguntas Frecuentes */
-.seccionCuatro {
+.seccionCinco {
   margin-bottom: 50px;
   background-color: #FDD0E5;
   width: 90%;
   margin: 0 auto;
   margin-bottom: 20px; }
-  .seccionCuatro div {
+  .seccionCinco div {
     background-color: #FDD0E5; }
-  .seccionCuatro button {
+  .seccionCinco button {
     font-size: 0.8em; }
 
 @media (max-width: 768px) {

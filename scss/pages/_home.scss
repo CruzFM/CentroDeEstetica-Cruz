@@ -6,69 +6,89 @@
     margin-top: 20px;
     /* margin-bottom: 25px; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
-    background-color: #FFEED9;
+    height: 500px;
     width: 90%;
     margin:0 auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    // margin-bottom: 20px;
+    // margin-top: 20px;
+    // border: solid black 1px;
 
-
-        .seccionUno__title {
-            margin-bottom: 20px;
-        }
-
-        .seccionUno__servicios {
-            display: flex;
-            flex-direction: column;
-            // justify-content: space-around;
-            
-        }
-
-        .seccionUno__tFaciales {
-            background-color:#FDD0E5;
+    .seccionUno__imagen {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        // border: solid black 1px;
+        img {
             width: 80%;
-            font-size: medium;
+            height: 80%;
             align-self: center;
-            h5 {
-                font-size: 1.3em;
-            }
+            // border: solid black 1px;
         }
+    }
 
-        .seccionUno__tCorporales {
-            background-color: #FDD0E5;
-            // height: 30rem;
-            width: 80%;
-            font-size: medium;
-            align-self: center;
-            
-            h5 {
-                font-size: 1.3em;
-            }
-            // img {
-            //     height: 40%;
-            // }
-        }
+    .seccionUno__descrip {
+        display: flex;
+        flex-direction: column;
+        // border: solid black 1px;
+        align-content: center;
+        justify-content: center;
+        width: 30%;
+    }
+
 }
 
-.linkTratamientos {
-    grid-column: 1 / span 2;
-    font-size: 0.5em;
+// .linkTratamientos {
+//     grid-column: 1 / span 2;
+//     font-size: 0.5em;
 
-    .animacion {
-        transition: 0.5s;
-    }
+//     .animacion {
+//         transition: 0.5s;
+//     }
 
-    .animacion:hover {
-        transform: scale(2,2);
-    }
-    
+//     .animacion:hover {
+//         transform: scale(2,2);
+//     }
 
-    
-} 
-/* Seccion Dos (main)*/
+// }
+
 .seccionDos {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    height: 500px;
+    width: 90%;
+    margin:0 auto;
+    // border: solid black 1px;
+
+    .seccionDos__descrip {
+        display: flex;
+        flex-direction: column;
+        // border: solid black 1px;
+        align-content: center;
+        justify-content: center;
+        width: 40%;
+
+    }
+
+    .seccionDos__imagen {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        // border: solid black 1px;
+        justify-content: flex-end;
+        img {
+            width: 80%;
+            height: 90%;
+            align-self: flex-start;
+            justify-self: center;
+        }
+
+    }
+}
+/* Seccion Dos (main)*/
+.seccionTres {
     margin-bottom: 50px;
     background-color: #FDD0E5;
     display: flex;
@@ -78,21 +98,8 @@
     margin:0 auto;
 
 
-    .seccionDos__Title {
-        padding-top: 20px;
-        padding-bottom: 15px;
-    }
-    /* .seccionDosFotoUno {
-        width: 300px;
-        height: auto;
 
-    }
-    .seccionDosFotoDos {
-        width: 300px;
-        height: auto;
-    } */
-
-    .seccionDos__Carousel {
+    .seccionTres__Carousel {
 
         width: 70%;
         height: 50%;
@@ -120,7 +127,7 @@
 }
 
 /* Seccion Tres (main) - usa GRID*/
-.seccionTres {
+.seccionCuatro {
     display: grid;
     margin-bottom: 50px;
     row-gap: 20px;
@@ -155,7 +162,7 @@
 }
 
 /* Sección Cuatro (Main) - Preguntas Frecuentes */
-.seccionCuatro {
+.seccionCinco {
     margin-bottom: 50px;
     background-color: #FDD0E5;
     width: 90%;
