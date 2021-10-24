@@ -2,23 +2,12 @@
 
 
 header {
-    // background: linear-gradient(180deg, #FDD0E5 60.64%, rgba(255, 255, 255, 0.938) 100%);
-    // background-image: url(../images/backImage-4.jpg);
-    // mix-blend-mode: normal;
-    height: 100%;
+    height: 25%;
     background-color: #FFF5E1;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-
-
 }
+
 .header__index {
 
-    a {
-        font-size: 16px;
-    }
-    // border: solid black 1px;
     .header__index--intro {
         display: flex;
         flex-direction: row;
@@ -27,33 +16,23 @@ header {
         width: 90%;
         margin:0 auto;
         align-content: flex-end;
-        // border: solid black 1px;
 
         .header__index--intro-slogan {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-content: center;
-            // border: solid black 1px;
-            h1 {
-                font-size: 44px;
-                font-weight: 700;
-            }
-            p {
-                font-size: 20px;
-            }
         }
 
         .header__index--intro-imagen {
             display: flex;
             align-self: flex-end;
             justify-content: flex-end;
-            // border: solid black 1px;
             width: 50%;
             img {
                 width: 90%;
                 height: 50%;
-
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
     
         }
@@ -62,19 +41,19 @@ header {
 
 }
 
+
+
+
 .navLogo {
     background-size: 150px 137px;
-    width: 150px;
-    height: 137px;
-    top: 5px;
-    left: 7px;
+    width: 9vw;
     background-color: transparent;
 }
 
 /* Modificación a las listas con links */  
 .listasNav {
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1.5vw;
 }
 
 /* Background transparente navbar*/
@@ -86,4 +65,11 @@ header {
     a:hover {
         background-color: rgb(250, 207, 241);
     }
+}
+
+@media (max-width: 768px) {
+    .listasNav {
+        padding: 2.5px;
+    }
+
 }

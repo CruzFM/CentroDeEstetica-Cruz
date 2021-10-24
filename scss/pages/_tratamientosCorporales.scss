@@ -1,89 +1,115 @@
-
-
-.corporales__Uno {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin:0 auto;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    font-size: 1.3em;
-
-    .corporales__Uno--imagen {
+.introCorporales {
+    margin-top: 2%;
+    .introCorporales__titulo {
         display: flex;
-        justify-self: center;
-        width: 40%;
-        background-color: none;
-        margin-right: 5%;
-        img {
-            width: 100%;
-            height: 100%;
+        align-content: center;
+        justify-content: center;
+        border-right: 5px solid #FA93F0;
+        h1 {
+            align-self: center;
+            justify-self: center;
+            ul {
+                border-left: 5px solid #AE51B5;
+            }
         }
     }
 
+    .introCorporales__imagen {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 100%;
+            box-shadow: var(--shadowParaImagenes);
+            border-radius: 12px;
+        }
+    }
+}
+
+.corporales__Uno {
+    margin-top: 2%;
+    .corporales__Uno--imagen {
+        display: flex;
+        align-content: center;
+        img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: var(--shadowParaImagenes);
+        }
+    }
     .corporales__Uno--descripcion {
-        align-self: center;
-        justify-self: center;
-        width: 40%;
+        justify-content: center;
+        align-content: center;
+        box-shadow: var(--shadowParaTexto);
+        border: 2px solid #FA93F0;
+        border-radius: 12px;
+        padding: 5px;
     }
 }
 
 .corporales__Dos {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin:0 auto;
-    justify-content: center;
-    background-color: #FDD0E5;
-    align-content: center;
-    margin-bottom: 20px;
-    font-size: 1.3em;
-
+    margin-top: 2%;
     .corporales__Dos--imagen {
-    display: flex;
-    justify-self: flex-end;
-    width: 40%;
-    margin-right: 5%;
-    align-self: center;
+        display: flex;
+        justify-content: center;
         img {
             width: 80%;
-            height: 80%;
             justify-self: center;
+            align-self: center;
+            border-radius: 12px;
+            box-shadow: var(--shadowParaImagenes);
         }
-
     }
-
     .corporales__Dos--descripcion {
-        align-self: center;
-        justify-self: center;
-        width: 40%;
+        justify-content: center;
+        align-content: center;
+        box-shadow: var(--shadowParaTexto);
+        border: 2px solid #FA93F0;
+        border-radius: 12px;
+        padding: 5px;
     }
 }
 
 .corporales__tres {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin:0 auto;
-    justify-content: center;
-    margin-bottom: 30px;
-    font-size: 1.3em;
-
+    margin-top: 2%;
+    margin-bottom: 2%;
     .corporales__tres--imagen {
         justify-self: flex-start;
         align-self: center;
-        width: 40%;
         img {
-            width: 80%;
-            height: 80%;
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: var(--shadowParaImagenes);
         }
     }
-
     .corporales__tres--descripcion {
-        justify-self: center;
-        align-self: center;
-        margin-left: 5%;
-        width: 40%;
+        justify-content: center;
+        align-content: center;
+        box-shadow: var(--shadowParaTexto);
+        border: 2px solid #FA93F0;
+        border-radius: 12px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .introCorporales {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .corporales__Uno {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .corporales__Dos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .corporales__tres {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 }

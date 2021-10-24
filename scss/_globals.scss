@@ -19,16 +19,18 @@ body {
 }
 
 h1 {
-    font-size: 44px;
+    // font-size: 44px;
+    font-size: 4vw;
+    font-weight: 700;
 }
 
 /* Cambiar el tamaño a los subtítulos */
 h2 {
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 2.5vw;
 }
 
 h4 {
@@ -38,8 +40,10 @@ h4 {
 h5 {
     font-size: 16px;
 }
+
+
 p {
-    font-size: 20px;
+    font-size: 2vw;
 }
 /* Modifica los links de la página*/
 
@@ -57,4 +61,14 @@ a {
 
 a:hover{
     background-color: rgb(250, 207, 241);
+}
+:root {
+    --mainBackgroundColor: #FFE8F4;
+    --shadowParaImagenes: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    --shadowParaTexto:  6px 6px 4px rgba(185, 11, 167, 0.25);
+    --colorFondoBotones: #D952FF;
+    --colorBordeBotones: #2F3E48;
+    --fondoHoverBotones: #A633B5;
+    --bordeHoverBotones: #31347B;
+
 }

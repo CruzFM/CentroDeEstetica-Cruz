@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>contacto</title>
+    <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/index.css">
@@ -50,23 +50,27 @@
 
     <!-- Inicio del main -->
     <main>
-        <h1>¡Contactanos!</h1>
+        <section class="container tituloContacto">
+            <div class="row">
+                <h1 class="col-lg-12 col-md-12 col-sm-12">¡Contactanos!</h1>
+            </div>
+        </section>
         <!--inicio formulario-->
         <section class="contacto">
             <form action="">            
                <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                     <!-- Nombre -->
                         <div class="form-outline">
                             <label class="form-label" for="nombre">Ingrese su nombre Completo:</label>
-                            <input type="text" id="nombre" class="form-control form-control-lg" />
+                            <input type="text" id="nombre" class="form-control form-control-lg" placeholder="Nombre y Apellido..." />
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                     <!-- Dirección Mail -->
                         <div class="form-outline">
                             <label class="form-label" for="mail">Dirección de Correo Electrónico:</label>
-                            <input type="email" id="mail" class="form-control form-control-lg" />
+                            <input type="email" id="mail" class="form-control form-control-lg" placeholder="Ej: fernandomartincruz94@gmail.com" />
                         </div>
                     </div>
                 </div>
@@ -74,7 +78,7 @@
                 <hr />
                 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <label for="tratamiento" class="form-label">Tratamiento</label>
                         <select id="tratamiento" class="form-select form-control-lg">
                             <option selected>Radiofrecuencia</option>
@@ -86,30 +90,30 @@
                             <option>Radiofrecuencia Facial</option>
                         </select>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                         <label for="telefono" class="form-label">Teléfono</label>
-                        <input type="text" class="form-control form-control-lg" id="telefono">
+                        <input type="tel" class="form-control form-control-lg" id="telefono" placeholder="Ej: 11-3790-2453">
                     </div>
                 </div>
 
                 <hr />
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
                     <!-- Consulta -->
                         <div class="form-outline">
                             <label class="form-label" for="consulta">Consulta:</label>
-                            <input type="text" class="form-control form-control-lg" id="consulta"/>
+                            <textarea name="consulta paciente" id="consulta"  rows="10" class="form-control form-control-lg" placeholder="Su consulta..."></textarea>
                         </div>
                     </div>
                 </div>
 
                 <div class="row contacto__botones">
-                    <div class="col-md-4">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                    <div class="col-md-4 col-sm-6">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
-                    <div class="col-md-6">
-                        <button type="reset" class="btn btn-outline-secondary">Reset</button>
+                    <div class="col-md-6 col-sm-6">
+                        <button type="reset" class="btn btn-outline-secondary">Limpiar</button>
                     </div>
                 </div>
             </form>
@@ -120,33 +124,62 @@
     </main>
 
     <!-- Inicio del footer -->
-    <footer class="gridFooter">
-        <div class="datosEmpresa">
-                <h2>¡Contactanos!</h2>
-        </div>
-        <div class="datosEmpresa__Uno">
-                    <h3>Tel: 4562-5468</h3>
-        </div>
-        <div class="datosEmpresa__Dos">
-                    <h3>Dirección: Av. Cabildo 1234</h3>
-        </div>
-        <div class="datosEmpresa__Tres">
-                    <h3>Email: Bellabeautycenter@gmail.com</h3>
-        </div>
-        <div class="logoFb">
-            <a href="">
-                <img src="../images/facebook.png" alt="">
-            </a>
-        </div>
-        <div class="logoInsta">
-            <a href="">
-                <img src="../images/instagram.png" alt="">
-            </a>
-        </div>
-        <div class="logoWp">
-            <a href="">
-                <img src="../images/whatsapp.png" alt="">
-            </a>
+    <footer>
+        <div class="container">
+            <div class="row footerFlex">
+                <div class="col-lg-4 col-md-4 col-sm-4 footerFlex__datos">
+                    <div>
+                        <h5>Teléfono:</h5>
+                        <p>Tel: 4562-5468</p>
+                    </div>
+                    <div>
+                        <h5>Dirección:</h5>
+                        <p>Dirección: Av. Cabildo 1234</p>
+                    </div>
+                    <div>
+                        <h5>Correo electrónico:</h5>
+                        <p>Bellabeautycenter@gmail.com</p>
+                    </div>
+                    <div>
+                        <h6>Bella Beauty Center®</h6>
+                    </div>
+                </div>
+                <div class="footerFlex__enlaces col-lg-4 col-md-4 col-sm-4">
+                    <div>
+                        <a href="../pages/tratamientos-faciales.html"> <p> Tratamientos Faciales</p></a>
+                    </div>
+                    <div>
+                        <a href="../pages/tratamientos-corporales.html"> <p> Tratamientos Corporales</p></a>
+                    </div>
+                    <div>
+                        <a href="../pages/nosotros.html"><p> Nosotros</p></a>
+                    </div>
+                    <div>
+                        <a href="../pages/contacto.html"><p> Contacto</p></a>
+                    </div>
+                    <div>
+                        <a href="../index.html"> <p> Volver a Página Principal</p></a>
+                    </div>
+        
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 footerFlex__iconos">
+                    <div class="logoFb">
+                        <a href="">
+                            <img src="../images/facebook.png" alt="Logo de Facebook">
+                        </a>
+                    </div>
+                    <div class="logoInsta">
+                        <a href="">
+                            <img src="../images/instagram.png" alt="Logo de Instragram">
+                        </a>
+                    </div>
+                    <div class="logoWp">
+                        <a href="">
+                            <img src="../images/whatsapp.png" alt="Logo de Whatsapp">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- Fin del footer -->

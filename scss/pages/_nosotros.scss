@@ -1,35 +1,122 @@
-.nosotros {
-    display: grid;
-    row-gap: 20px;
-    column-gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    margin-bottom: 50px;
+
+// Intro - Nosotros
+.introNosotros {
+    margin-top: 2%;
+    .introNosotros__mision {
+        border-right: 5px solid #FA93F0;
+        h6 {
+            font-size: 18px;
+        }
+        h1 {
+            font-weight: 700;
+        }
+    }
+    .introNosotros__imagen {
+        img {
+            width: 100%;
+            box-shadow: var(--shadowParaImagenes);
+            border-radius: 12px;
+        }
+    }
 }
 
-.nosotros__title {
-    // border: solid black 1px;
-    grid-column: 1 / 4;
-}
-.nosotros__historia {
-    // border: solid black 1px;
-    grid-row: 2 / 4;
-}
-.nosotros__historia--contenidoHistoria {
-    // border: solid black 1px;
-    grid-column: 2 / 4;
-    grid-row: 2 / 4;   
+
+.nosotros__SeccionUno {
+    margin-top: 2%;
+    .nosotros__SeccionUno--imagen {
+        img {
+            width: 100%;
+            box-shadow: var(--shadowParaImagenes);
+            border-radius: 12px;
+        }
+    }
+    .nosotros__SeccionUno--texto {
+        justify-content: center;
+        align-content: center;
+        box-shadow: var(--shadowParaTexto);
+        border: 2px solid #FA93F0;
+        border-radius: 12px;
+        padding: 5px;
+    }
 }
 
-.nosotros__prof {
-    // border: solid black 1px;
-    grid-row: 4 / 6;
+.nosotros__SeccionDos {
+    margin-top: 2%;
+    .nosotros__SeccionDos--texto {
+        align-content: center;
+        justify-content: center;
+        box-shadow: var(--shadowParaTexto);
+        border: 2px solid #FA93F0;
+        border-radius: 12px;
+        padding: 5px;
+    }
+    .nosotros__SeccionDos--imagen {
+        img {
+            width: 100%;
+            box-shadow: var(--shadowParaImagenes);
+            border-radius: 12px;
+        }
+    }
 }
-.nosotros__prof--Uno {
-    // border: solid black 1px;
-    grid-column: 2 / 4;  
+
+.nosotros__SeccionTres {
+    background-color: var(--main-background-color);
+    .nosotros__SeccionTres--general{ 
+        margin-top: 2%;
+        margin-bottom: 2%;
+        .nosotros__SeccionTres--texto {
+            align-content: center;
+            justify-content: center;
+            box-shadow: var(--shadowParaTexto);
+            border: 2px solid #FA93F0;
+            border-radius: 12px;
+            padding: 5px;
+
+        }
+        .nosotros__SeccionTres--imagen {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 100%;
+                box-shadow: var(--shadowParaImagenes);
+                margin-bottom: 1%;
+                border-radius: 12px;
+            }
+            h3 {
+                justify-self: center;
+                align-self: center;
+            }
+        }
+    }   
 }
-.nosotros___prof--dos {
-    // border: solid black 1px;
-    grid-column: 2 / 4;
+@media (max-width: 576px) {
+
+    .introNosotros {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        .introNosotros__mision {
+            h6 {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .nosotros__SeccionUno {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .nosotros__SeccionDos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .nosotros__SeccionTres {
+        .nosotros__SeccionTres--general{ 
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+        }   
+    }
 }
