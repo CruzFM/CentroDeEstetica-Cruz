@@ -21,6 +21,9 @@
             box-shadow: var(--shadowParaImagenes);
             border-radius: 12px;
         }
+        img:hover {
+            opacity: 0.6;
+          }
     }
 }
 
@@ -33,6 +36,9 @@
             align-self: center;
             box-shadow: var(--shadowParaImagenes);
         }
+        img:hover {
+            opacity: 0.6;
+          }
     }
 
     .faciales__Uno--descripcion {
@@ -44,6 +50,9 @@
         flex-direction: column;
         align-content: center;
         justify-content: center;
+    }
+    .faciales__Uno--descripcion:hover {
+        background-color:var(--FondoTextoHover);
     }
 }
 
@@ -57,6 +66,9 @@
             align-self: center;
             box-shadow: var(--shadowParaImagenes);
         }
+        img:hover {
+            opacity: 0.6;
+          }
     }
     .faciales__Dos--descripcion {
         box-shadow: var(--shadowParaTexto);
@@ -67,6 +79,9 @@
         flex-direction: column;
         align-content: center;
         justify-content: center;
+    }
+    .faciales__Dos--descripcion:hover {
+        background-color:var(--FondoTextoHover);
     }
 }
 
@@ -79,6 +94,9 @@
             border-radius: 12px;
             box-shadow: var(--shadowParaImagenes);
         }
+        img:hover {
+            opacity: 0.6;
+          }
     }
     .faciales__Tres--descripcion {
         box-shadow: var(--shadowParaTexto);
@@ -89,6 +107,9 @@
         flex-direction: column;
         align-content: center;
         justify-content: center;
+    }
+    .faciales__Tres--descripcion:hover {
+        background-color:var(--FondoTextoHover);
     }
 }
 

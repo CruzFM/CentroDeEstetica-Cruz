@@ -17,6 +17,9 @@
             box-shadow: var(--shadowParaImagenes);
             border-radius: 12px;
         }
+        img:hover {
+            opacity: 0.6;
+          }
     }
 }
 
@@ -29,6 +32,9 @@
             box-shadow: var(--shadowParaImagenes);
             border-radius: 12px;
         }
+        img:hover {
+            opacity: 0.6;
+          }
     }
     .nosotros__SeccionUno--texto {
         justify-content: center;
@@ -37,6 +43,9 @@
         border: 2px solid #FA93F0;
         border-radius: 12px;
         padding: 5px;
+    }
+    .nosotros__SeccionUno--texto:hover {
+        background-color:var(--FondoTextoHover);
     }
 }
 
@@ -50,12 +59,19 @@
         border-radius: 12px;
         padding: 5px;
     }
+    .nosotros__SeccionDos--texto:hover {
+        background-color:var(--FondoTextoHover);
+    }
+
     .nosotros__SeccionDos--imagen {
         img {
             width: 100%;
             box-shadow: var(--shadowParaImagenes);
             border-radius: 12px;
         }
+        img:hover {
+            opacity: 0.6;
+          }
     }
 }
 
@@ -71,7 +87,9 @@
             border: 2px solid #FA93F0;
             border-radius: 12px;
             padding: 5px;
-
+        }
+        .nosotros__SeccionTres--texto:hover {
+            background-color:var(--FondoTextoHover);
         }
         .nosotros__SeccionTres--imagen {
             display: flex;
@@ -82,6 +100,9 @@
                 margin-bottom: 1%;
                 border-radius: 12px;
             }
+            img:hover {
+                opacity: 0.6;
+              }
             h3 {
                 justify-self: center;
                 align-self: center;
