@@ -1,5 +1,5 @@
 # CentroDeEstetica-Cruz
-Un proyecto realizado para el curso de Desarrollo Web de Coderhouse / A Project made for the Coderhouse Web Development course
+Un proyecto realizado para el curso de Desarrollo Web de Coderhouse / A Project made for the Coderhouse Web Development course.
 La página se centra en un microemprendimiento de un familiar, un centro de estética integral.
 El diseño es fundamentalmente simplista, interpreté que sobrecargar de información técnica al usuario respecto de cada tratamiento haría que éste pierda el interés.
 Si bien en realidad debería tener una plataforma E-Commerce al menos, con paquetes de tratamientos, la realidad es que no tengo los conocimientos necesarios como para llevar eso a cabo.
