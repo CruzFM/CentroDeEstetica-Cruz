@@ -7,6 +7,6 @@ Al ser un proyecto que recién está comenzando (aquel sobre el cual trata la p�
 
 --- EN
 This webpage proyect is based on a relative's small business, a beauty center.
-About the design, it's rather simplistic, as i thought that overloading users with tons of information about each treatment would result in them getting bored and, consequently, getting out of the webpage.
+About the design, it's rather simplistic, as I thought that overloading users with tons of information about each treatment would result in them getting bored and, consequently, getting out of the webpage.
 As it's about a product, and the product should, of course, be sold, it lacks an E-commerce platform, but i currently lack the knowledge to build that kind of projects.
 As I said before, it's a small business, and it's only in the beggining phase, so the owners haven't built its social media pages yet.
