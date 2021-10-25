@@ -45,7 +45,7 @@ h5 {
 p {
     font-size: 2vw;
 }
-/* Modifica los links de la página*/
+
 
 /*  Elimina formato de las listas del nav */
 ul {
@@ -54,6 +54,7 @@ ul {
     padding: 0;
 }
 
+/* Modifica los links de la página*/
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -62,6 +63,8 @@ a {
 a:hover{
     background-color: rgb(250, 207, 241);
 }
+
+// Variables 
 :root {
     --mainBackgroundColor: #FFE8F4;
     --shadowParaImagenes: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);

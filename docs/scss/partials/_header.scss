@@ -1,46 +1,11 @@
-/* Color con Gradiente HEADER*/
-
+/* Color HEADER*/
 
 header {
     height: 25%;
     background-color: #FFF5E1;
 }
 
-.header__index {
-
-    .header__index--intro {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-        width: 90%;
-        margin:0 auto;
-        align-content: flex-end;
-
-        .header__index--intro-slogan {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-content: center;
-        }
-
-        .header__index--intro-imagen {
-            display: flex;
-            align-self: flex-end;
-            justify-content: flex-end;
-            width: 50%;
-            img {
-                width: 90%;
-                height: 50%;
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-            }
-    
-        }
-
-    }
-
-}
-
+// Tamaño del isologotipo del emprendimiento
 .navLogo {
     background-size: 150px 137px;
     width: 9vw;
@@ -69,4 +34,13 @@ header {
         padding: 2.5px;
     }
 
+}
+
+@media (max-width: 576px) {
+    .listasNav {
+        font-size: 12px;
+    }
+    .navLogo {
+        width: 50px;
+    }
 }
